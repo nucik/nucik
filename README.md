@@ -1,12 +1,11 @@
-- 👋 Hi, I’m @nucik
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
+- 👋 ᲛᲔ ᲕᲐᲠ ᲜᲣᲪᲘᲙᲝ
+- 👀 ᲥᲐᲠᲗᲣᲚᲘ ᲚᲘᲢᲔᲠᲐᲢᲣᲠᲘᲡ ᲞᲠᲝᲤᲔᲡᲝᲠᲘ
+- 🌱 ᲞᲝᲔᲢᲘ
+- 💞️ ᲛᲔᲕᲔᲜᲐᲮᲔ
+- 📫 ᲚᲐᲛᲐᲖᲘ ᲓᲔᲓᲐ
+- 😄 ᲓᲐ ᲣᲚᲐᲛᲐᲖᲔᲡᲘ ᲑᲔᲑᲘᲐ
+- ⚡ ᲖᲝᲒᲐᲓᲐᲓ ᲙᲐᲘ ᲢᲘᲞᲘ
 
-<!---
-nucik/nucik is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+ᲔᲡ ᲐᲠᲘᲡ ᲩᲔᲛᲘ ᲫᲘᲠᲘᲗᲐᲓᲘ ᲡᲐᲘᲢᲘ, ᲐᲥ ᲣᲜᲓᲐ ᲛᲝᲮᲓᲔᲡ ᲡᲐᲡᲬᲐᲣᲚᲔᲑᲘ
+
+
