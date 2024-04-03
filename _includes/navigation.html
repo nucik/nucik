@@ -1,0 +1,5 @@
+<div class="links scroll">
+    {% for link in site.navigation%}
+        <a class="noto-serif-georgian-1" href="{{ site.baseurl }}{{ link.url }}">{{ link.title }}</a>
+    {% endfor %}
+</div>

@@ -1,1 +1,26 @@
+// $base-font-family: 'Noto Sans Georgian';
+// ფერების ცვლადების განსაზღვრა
+// Основная палитра цветов
+$soft-turquoise: #a2d4c8; // Мягкий бирюзовый
+$sand-beige: #d3c1a5; // Песочный бежевый
+$cream: #f2e9de; // Кремовый
+$deep-teal: #487a7b; // Глубокий темно-бирюзовый
+$light-mint: #b8d8d8; // Светлый мятный
+$mute-green: #789c92; // Приглушенный зеленый
+$cold-grey-blue: #7a9a9b; // Холодный серо-голубой
+$soft-blue: #cde0e3; // Нежно-голубой
+$dark-blue: #182932; // ფონისთვის მუქი ლურჯი
+
+
+$base-font-family: 'Noto Sans Georgian';
+$base-font-size:   20px;
+$base-font-weight: 400;
+$small-font-size:  $base-font-size * 0.875;
+$base-line-height: 1.7;
+
+$spacing-unit:     30px;
+
+
+$html-bg: $soft-turquoise;
+$body-bg: $deep-teal;
 
