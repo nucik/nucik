@@ -2,12 +2,13 @@
 
 title: ᲜᲣᲪᲘᲙᲝ ᲓᲔᲙᲐᲜᲝᲖᲘᲨᲕᲘᲚᲘ
 description: >
-  პოეტი. წარმოგიდგენთ საკუთარ შემოქმედებას - ლექსები, პროზა, პუბლიკაციები, ნახატები
+  პოეტი
+  წარმოგიდგენთ საკუთარ შემოქმედებას - ლექსები, პროზა, პუბლიკაციები, ნახატები
   
 
 baseurl:  #name of GitHub repository
 url: "" #custom url to be used instead of GitHub repository
-email: "poet@nuciko.ge"
+# email: "poet@nuciko.ge"
 # Pagination
 // paginate: 4
 // permalink: /blog/:year/:title/
