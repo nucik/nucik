@@ -1,53 +1,16 @@
 <!DOCTYPE html>
-<html>
+<html lang="ka">
 
-    <head>
-        <meta charset="utf-8">
-        <meta content="width=device-width, initial-scale=1" name="viewport">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Georgian:wdth,wght@62.5..100,100..900&family=Noto+Serif+Georgian:wdth,wght@62.5..100,100..900&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="{{site.baseurl}}/assets/css/main.css">
+  {% include head.html %}
 
-        {% seo %}
+  <body>
 
-        {% include favicon.html %}
+    {% include navigation.html %}
 
+    <main>
+      {{ content }}
+    </main>
 
-        <!-- Load fontawesome here for faster loadtimes: https://stackoverflow.com/a/35880730/9523246 -->
-        <script type="text/javascript"> (function() { var css = document.createElement('link'); css.href = 'https://use.fontawesome.com/releases/v5.11.0/css/all.css'; css.rel = 'stylesheet'; css.type = 'text/css'; document.getElementsByTagName('head')[0].appendChild(css); })(); </script>
-    </head>
-
-    <body>
-        <section class="container">
-          <div class="person">
-            <img src="{{site.baseurl}}/assets/images/profile.jpg" alt="">
-            <h1 class="noto-serif-georgian-w500">{{site.title}}</h1>
-            <h3 class="noto-sans-georgian-w300">{{site.description}}</h3>
-          </div>
-          <div class="menu">
-            {% include navigation.html %}
-          </div>
-        </section> 
-        <main>
-            <article>
-                {{ content }}
-            </article>
-        </main>
-
-        <footer>
-          <p class="copy">
-            <small> &copy; {{site.title}} {{ site.time | date: '%Y' }}
-                  
-            </small>
-          </p>
-
-        {% include social-footer.html %}
-
-        </footer>
-
-        {% include analytics.html %}
-
-    </body>
-
+    {% include footer.html %}
+  </body>
 </html>

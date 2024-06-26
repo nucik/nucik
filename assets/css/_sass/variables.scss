@@ -1,26 +1,46 @@
-// $base-font-family: 'Noto Sans Georgian';
-// ფერების ცვლადების განსაზღვრა
-// Основная палитра цветов
-$soft-turquoise: #a2d4c8; // Мягкий бирюзовый
-$sand-beige: #d3c1a5; // Песочный бежевый
-$cream: #f2e9de; // Кремовый
-$deep-teal: #487a7b; // Глубокий темно-бирюзовый
-$light-mint: #b8d8d8; // Светлый мятный
-$mute-green: #789c92; // Приглушенный зеленый
-$cold-grey-blue: #7a9a9b; // Холодный серо-голубой
-$soft-blue: #cde0e3; // Нежно-голубой
-$dark-blue: #182932; // ფონისთვის მუქი ლურჯი
+// Colors
+$default-color: #555 !default;
+$default-shade: #353535 !default;
+$default-tint: #aaa !default;
+$grey-1: #979797 !default;
+$grey-2: #e5e5e5 !default;
+$grey-3: #f9f9f9 !default;
+$white: #fff !default;
+$blue: #4a9ae1 !default;
+$shadow-color: rgba(0, 0, 0, .2) !default;
+$code-color: #bf616a !default;
+// ჰედერი და ფუტერის ფონი
+$body-bg: #fff;
 
 
-$base-font-family: 'Noto Sans Georgian';
-$base-font-size:   20px;
-$base-font-weight: 400;
-$small-font-size:  $base-font-size * 0.875;
-$base-line-height: 1.7;
+// Colors
+$default-color-dark: #98a0ac;
+$default-shade-dark: #353535;
+$default-tint-dark: #aaa;
+$shadow-color-dark: rgba(255, 255, 255, .2);
+$code-color-dark: #db1400;
+// ჰედერი და ფუტერის ფონი
+$body-bg-dark: #0F1216;
 
-$spacing-unit:     30px;
 
+// Fonts
+$serif-primary: 'Noto Serif Georgian' !default;
+$serif-secondary: 'Noto Serif Georgian' !default;
+$sans-serif:  'Noto Sans Georgian' !default;
+$monospaced: Menlo, Monaco, monospace !default;
 
-$html-bg: $soft-turquoise;
-$body-bg: $deep-teal;
+//length variables for responsive design 
+//only used in tags.scss for the time being. Todo: standardize useage of sizes across the theme
+$on-phone: 450px;
 
+@mixin box-sizing($type: border-box) {
+  -webkit-box-sizing: $type;
+  -moz-box-sizing: $type;
+  box-sizing: $type;
+}
+
+@mixin transition($args...) {
+  -webkit-transition: $args;
+  -moz-transition: $args;
+  transition: $args;
+}

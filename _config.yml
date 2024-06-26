@@ -1,88 +1,63 @@
-### your site title here
+# Site settings
+title:         GRID 
+description:    "ᲡᲞᲔᲪᲘᲤᲘᲙᲐᲪᲘᲘᲡ ᲪᲜᲝᲑᲐᲠᲘ"
+baseurl: 
+url: 
 
-title: ᲜᲣᲪᲘᲙᲝ ᲓᲔᲙᲐᲜᲝᲖᲘᲨᲕᲘᲚᲘ
-description: >
-  პოეტი
-  წარმოგიდგენთ საკუთარ შემოქმედებას - ლექსები, პროზა, პუბლიკაციები, ნახატები
-  
+# https://jekyllrb.com/docs/configuration/options/
+timezone: Asia/Tbilisi
 
-baseurl:  #name of GitHub repository
-url: "" #custom url to be used instead of GitHub repository
-# email: "poet@nuciko.ge"
-# Pagination
-// paginate: 4
-// permalink: /blog/:year/:title/
-// paginate_path: /blog/page:num/
+# Google Analytics
+google_analytics:
 
-# Social media links in footer
-# twitter: "#"
-# linkedin: "#"
-# stackoverflow: "#"
-github: "nucik"
-# researchgate: "#"
-# orcid: "#"
-# quora: "#"
-# instagram: "#"
-facebook: "/nuciko.dekanozishvili"
+# Author
+author:
+  name:         ავთო ფანგანი
+  url:          https://grid.din.ge
+  email:        blog@din.ge
 
- 
-navigation:
-  - title: ᲛᲗᲐᲕᲐᲠᲘ 
-    url: /
-  - title: ᲞᲝᲔᲖᲘᲐ
-    url: /poetry/
-  - title: ᲑᲚᲝᲒᲘ
-    url: /blog/
-  
-
-# Markdown
-highlighter: rouge
-markdown: kramdown
-
-# Tracker
-analytics:
-
-# optimization -> compress.html
-compress_html:
-  clippings: [html,div, p, ul, td, h1, h2, h3, h4,link, meta, footer, nav, img, header, hr, br, head, style, li, ul, ol, time, main, script, title]
-  comments: ["<!-- ", " -->"]
-  endings: [all]
-  ignore:
-    envs: [local]
-  blanklines: false
-  profile: false
-  startings: []
-
-#collection
-collections:
-  projects:
-    output: true
-    permalink: /projects/:name/
-    order:
-      - ikaro.md
-      - tetri.md
-      - club_ikaro.md
-      - club_ruispiri.md
-      - club_matani.md
-      - club_sakobiano.md
-
-  articles:
-    output: true
-    permalink: /articles/:name/
-    :working_dir: dir
-sass:
-  sass_dir: /assets/css/_sass
-  style: compressed
-
+# Build settings
+markdown:       kramdown
 include:
   - _pages
 
+links:
+  - title: ᲛᲗᲐᲕᲐᲠᲘ
+    url: / 
+  - title: ᲑᲚᲝᲒᲘ
+    url: /blog
+  - title: ᲩᲔᲛᲡ ᲨᲔᲡᲐᲮᲔᲑ
+    url: /about
+    #  - title: ᲙᲝᲜᲢᲐᲥᲢᲘ
+    #    url: /contact
+  
+collections:
+    home:
+      output: true
+  #  permalink: /blog/:categories/:year/:month/:day/:title.html
+
+# Assets
+sass:
+  sass_dir:     /assets/css/_sass
+  # style:        compressed
+
+# Gems
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll-last-modified-at
+
+# Permalinks
+# permalink:      /:title
+permalink: pretty
+paginate:       5
+paginate_path: "/blog/page:num"
+
+# Excludes
 exclude:
   - README.md
   - LICENSE.md
 
-plugins:
-  - jekyll-seo-tag
-  - jekyll-paginate
-  - jekyll-email-protect
-  - jekyll-target-blank
+# Disqus (Set to your disqus id)
+disqus:
