@@ -1,8 +1,8 @@
 # Site settings
-title:         GRID 
-description:    "ᲡᲞᲔᲪᲘᲤᲘᲙᲐᲪᲘᲘᲡ ᲪᲜᲝᲑᲐᲠᲘ"
-baseurl: 
-url: 
+title: "ᲜᲣᲪᲘᲙᲝ ᲓᲔᲙᲐᲜᲝᲖᲘᲨᲕᲘᲚᲘ"
+description: "ᲞᲝᲔᲢᲘ"
+baseurl:
+url:
 
 # https://jekyllrb.com/docs/configuration/options/
 timezone: Asia/Tbilisi
@@ -12,33 +12,41 @@ google_analytics:
 
 # Author
 author:
-  name:         ავთო ფანგანი
-  url:          https://grid.din.ge
-  email:        blog@din.ge
+  name: ნუციკო დეკანოზიშვილი
+  url: https://nuciko.ge
+  email: poet@nuciko.ge
 
 # Build settings
-markdown:       kramdown
+markdown: kramdown
 include:
   - _pages
 
 links:
   - title: ᲛᲗᲐᲕᲐᲠᲘ
-    url: / 
+    url: /
   - title: ᲑᲚᲝᲒᲘ
     url: /blog
+  - title: ᲞᲝᲔᲖᲘᲐ
+    url: /poetry
+  - title: ᲙᲕᲚᲔᲕᲐ
+    url: /research
+  - title: ᲐᲙᲕᲐᲠᲔᲚᲘ
+    url: /aquarelle
+  - title: ᲩᲔᲛᲘ ᲕᲔᲜᲐᲮᲘ
+    url: /vineyard
   - title: ᲩᲔᲛᲡ ᲨᲔᲡᲐᲮᲔᲑ
     url: /about
     #  - title: ᲙᲝᲜᲢᲐᲥᲢᲘ
     #    url: /contact
-  
+
 collections:
-    home:
-      output: true
+  home:
+    output: true
   #  permalink: /blog/:categories/:year/:month/:day/:title.html
 
 # Assets
 sass:
-  sass_dir:     /assets/css/_sass
+  sass_dir: /assets/css/_sass
   # style:        compressed
 
 # Gems
@@ -51,7 +59,7 @@ plugins:
 # Permalinks
 # permalink:      /:title
 permalink: pretty
-paginate:       5
+paginate: 5
 paginate_path: "/blog/page:num"
 
 # Excludes
